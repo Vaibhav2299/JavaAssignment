@@ -75,7 +75,7 @@ public class Solution {
             freqS[s.charAt(i) - 'a']++;
         }
 
-        // Step 3: Check first window
+        //Check first window
         if (Arrays.equals(freqP, freqS)) {
             positions.add(0);
         }
